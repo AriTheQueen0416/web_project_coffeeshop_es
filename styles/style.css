@@ -7,7 +7,7 @@ body {
     line-height: 20px;
   }
   .header {
-    background-image: url("./background_header.svg");
+    background-image: url("../images/background_header.svg");
     background-color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover;
