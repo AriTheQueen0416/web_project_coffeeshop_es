@@ -1,0 +1,97 @@
+body {
+    min-width: 1100px;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: "Inter", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .header {
+    background-image: url("./background_header.svg");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 30px 80px 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+    position: relative;
+    left: -50px;
+    width: 105px;
+    height: 39px;
+  }
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    position: relative;
+    right: -54px;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .nav-link {
+    text-decoration: none;
+    color: #000000;
+}
+.nav-link:hover {
+  color: #ff976b;
+}
+  .header-title {
+    margin: 183px 0 28px;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 72px;
+    letter-spacing: -1px;
+    max-width: 700px;
+  }
+  .span-accent {
+    display: block;
+    font-family: "Noto Serif", "Times New Roman", serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 72px;
+    color: #ff976b;
+  }
+  .header-description {
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 683px;
+  }
+  .header-image {
+    position: absolute;
+    width: 646px;
+    height: 568px;
+    top: 124px;
+    right: 5px;
+  }
+  .header-info {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6F6F6F;
+  }
+  .info-text {
+    margin: 0;
+  }
