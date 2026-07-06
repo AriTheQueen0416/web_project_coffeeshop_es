@@ -46,7 +46,7 @@
   margin-bottom: 16px;
 }
 .footer__social-link {
-  color: #FFD6C5;
+  color: #F2F2F2;
   text-decoration: none;
   column-gap: 10px;
   display: flex;
@@ -57,12 +57,15 @@
   font-size: 16px;
   line-height: 20px;
 }
+.footer__social-link:hover {
+  color: #FFD6C5;
+}
 .footer__social-icon {
-  columns: #F2F2F2;
   height: 16px;
   width: 16px;
 }
 .footer__copyright {
+  color: #FFD6C5;
   margin-top: 100px;
   font-family: "Inter";
   font-style: normal;

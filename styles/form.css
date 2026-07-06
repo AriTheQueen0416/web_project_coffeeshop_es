@@ -27,12 +27,14 @@
   opacity: 1;
 }
   .form__button {
+  border-color:#838383 ;
   border-radius: 4px;
   background-color: #E96E3A;
   cursor: pointer;
   height: 60px;
   margin-bottom: 32px;
   max-width: 385px;
+  color: #F2F2F2;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
